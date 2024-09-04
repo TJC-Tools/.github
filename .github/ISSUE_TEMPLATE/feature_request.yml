@@ -1,0 +1,19 @@
+name: Feature Request
+description: Suggest an idea for this project.
+title: "[Feature]: "
+labels: ["feature"]
+assignees:
+  - TylerCarrol
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Is your feature request related to a problem? Please describe.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Description
+      description: Please describe your feature request in detail.
+      placeholder: Feature request
+    validations:
+      required: true
