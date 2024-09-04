@@ -14,8 +14,7 @@ body:
     attributes:
       label: What went wrong?
       description: Please also explain what you expected to happen.
-      placeholder: Explain the issue
-      value: "A bug happened!"
+      placeholder: Describe the issue in detail
     validations:
       required: true
   - type: textarea
@@ -24,7 +23,6 @@ body:
       label: Version
       description: What version are you running?
       placeholder: 0.1.0
-      value: "0.1.0"
     validations:
       required: true
   - type: textarea
